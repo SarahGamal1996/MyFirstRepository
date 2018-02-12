@@ -16,6 +16,8 @@ git checkout -b ReadMe
 git add '/Users/sarah/Desktop/UNI TAFF/SEMESTRE VI/Software Engineering/MyFirstRepository/README.md'
 git commit -a -m 'uploaded the read me file, description of the repository'
 git push --set-upstream origin ReadMe
+git checkout master
+git merge ReadMe
 git add '/Users/sarah/Desktop/UNI TAFF/SEMESTRE VI/Software Engineering/MyFirstRepository/AllMyCommands.txt' 
 git commit -a -m 'uploaded file AllMyCommands containing all the steps to create this repository and upload these files' 
 git push
